@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Yoga Studio Contact Us</title>     
+    <link rel="shortcut icon" href="./images/favicon.ico">               
+    <link rel="stylesheet" href="./styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/cis59_project.css">             
+    <link rel="stylesheet" href="styles/slicknav.css"> 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#nav_menu").slicknav({prependTo:"#mobile_menu"});  
+        });
+    </script>                           
+</head>
+    <body>
+        <header>
+        <!-- <img src="images/sample_yoga.jpg" alt="yoga" height="80px">  insert logo here -->
+            <h1>Yoga Studio</h1>         
+        </header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">    
+            <ul>
+                <li><a href="./home_page.html">Home</a></li>
+                <li><a href="./class_offerings.html">Class Offerings</a></li>
+                <li><a href="./teachers.html">Teachers</a></li>
+                <li><a href="./schedule_page.html">Class Schedule</a></li>
+                <li><a href="./forms.html">Join Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h3>Join us by filling the form below!</h3> <br>
+            <form action="form.html" method="get" id="fill_form">
+            <fieldset>
+                <legend>Member information</legend>
+                <label for="full_name">Name: </label>
+                <input type="text" name="full_name" id="full_name" placeholder="Please enter full name" required> <br> <br>
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone" placeholder="(xxx)-xxx-xxxx" pattern="\d{3}[\-]\d{3}[\-]d{4}" title="Format must be (xxx)-xxx-xxxx">
+                <br> <br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="123@johnsmith.com">
+            </fieldset>
+            <fieldset>
+                <legend>A few questions</legend>
+                Have you done yoga before?
+                <input type="checkbox" name="yes" id="yes" value="yes">
+                <label for="yes">Yes</label> 
+                <input type="checkbox" name="no" id="no" value="no">
+                <label for="no">No</label> <br> <br>
+                Are there any injuries you need to accomodate? 
+                <input type="checkbox" name="yes" id="yes1" value="yes">
+                <label for="yes">Yes</label>
+                <input type="checkbox" name="no" id="no1" value="no">
+                <label for="no">No</label> <br> <br>
+                If you clicked Yes, please list here: <br>
+                <textarea id="injuries" placeholder="Please enter text in here"></textarea> <br> <br>
+                Are you interested in invididual work?
+                <input type="checkbox" name="yes" id="yes2" value="yes">
+                <label for="yes">Yes</label>
+                <input type="checkbox" name="no" id="no2" value="no">
+                <label for="no">No</label> <br> <br>
+                How did you find us? <br>
+                <select id="items">
+                    <option value="item0">Please select</option>
+                    <option value="item1">Friend</option>
+                    <option value="item2">Drive-by</option>
+                    <option value="item3">Online ad</option>
+                    <option value="item4">Newspaper</option>
+                    <option value="item5">None of the above</option>
+                </select> <br> <br>
+            </fieldset>
+            <fieldset id="buttons">
+                <legend>Submit Information</legend>
+                <input type="submit" id="submit" value="submit">
+                <input type="reset" id="reset" value="Reset Fields">
+            </fieldset>
+            </form>      
+        </main>
+        <footer>
+			<h6>
+				<a class = "email"  href="mailto:lpcgeneral@laspositascollege.edu">lpcgeneral@laspositascollege.edu</a>
+			</h6>
+            <h6> 3000 Campus Hill Dr, Livermore, CA 94551. 
+Hours: M-Su: 8:00am to 2:00pm</h6>
+			<h6 class = "copyright">  Copyright &#169; 2019. Yoga Studio. All Rights Reserved. Last updated: December 2019 </h6>
+        </footer>
+    </body>
+</html>
