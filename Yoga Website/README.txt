@@ -1,2 +1,3 @@
-I took an HTML & CSS class (just cause thought it looked cool; it didn't give credit) and got to make a final project with a group.
-We had to make a yoga website :)
+### Yoga Website
+
+I attended an optional, no credit HTML & CSS course back when I first wanted to learn it. This was one of my first projects - a simple static HTML/CSS website :)
