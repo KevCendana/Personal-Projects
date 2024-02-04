@@ -1,5 +1,5 @@
 # Personal Projects
-Projects I've made outside of mandatory coursework and outside of hackathons, mainly for fun and practice. 
+Smaller projects I've made outside of mandatory coursework and outside of hackathons, mainly for fun and to practice coding languages! 
 
 # Brief Overview:
 ### Maplestory App:
